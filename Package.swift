@@ -12,6 +12,7 @@ let package = Package(
     products: [
         .library(
             name: "AdaEmbedFramework",
+            type: .dynamic,
             targets: ["AdaEmbedFramework"]
         ),
     ],
