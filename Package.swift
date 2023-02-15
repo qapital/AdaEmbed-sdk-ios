@@ -12,7 +12,6 @@ let package = Package(
     products: [
         .library(
             name: "AdaEmbedFramework",
-            type: .dynamic,
             targets: ["AdaEmbedFramework"]
         ),
     ],
@@ -23,18 +22,11 @@ let package = Package(
             path: "EmbedFramework",
             exclude: [
               "Info.plist",
-              "en.lproj/EmbedFrameworkView.xib",
-              "AdaEmbed.html",
-              "EmbedTest.html",
-              "EmbedView.xib",
-              "OfflineView.xib",
-              "View.xib",
             ],
             resources: [
               .process("Assets.xcassets"),
-              .process("AdaWebHostViewController.storyboard")
+              .process("AdaWebHostViewController.storyboard"),
             ]
         ),
     ]
 )
-
