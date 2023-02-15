@@ -9,5 +9,7 @@ ModuleCache.noindex
 info.plist
 **.zip
 fastlane/report.xml
+Cartfile.resolved
+Carthage/fastlane/report.xml
 .swiftpm/config/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata

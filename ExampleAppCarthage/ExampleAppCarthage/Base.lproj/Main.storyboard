@@ -27,7 +27,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ExampleAppCocoapod" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ExampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -159,7 +159,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPq-pX-NTs">
                                 <rect key="frame" x="82" y="538" width="250" height="44"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <accessibility key="accessibilityConfiguration" identifier="notification_test"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="3lF-6v-Evh"/>
                                     <constraint firstAttribute="width" constant="250" id="q67-B3-bZe"/>
@@ -225,7 +224,7 @@
         <!--Injected View Controller-->
         <scene sceneID="aBI-Mp-7TY">
             <objects>
-                <viewController id="r5d-3u-sPX" customClass="InjectedViewController" customModule="ExampleAppCocoapod" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="r5d-3u-sPX" customClass="InjectedViewController" customModule="ExampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u6Z-G9-uMX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
